@@ -1,0 +1,2 @@
+Branch!STRING:0|Active!DEC:1|Build Key!HEX:16|CDN Key!HEX:16|Install Key!HEX:16|IM Size!DEC:4|CDN Path!STRING:0|CDN Hosts!STRING:0|Tags!STRING:0|Armadillo!STRING:0|Last Activated!STRING:0|Version!STRING:0|Keyring!HEX:16
+us|1|bad2fc7f70a831c8b6d70ca2223f1fe9|a922f8a3d6cfa096cfdd0f4e0ebf9840|77c2b9c365ffae52ff19272e3449c921||tpr/pro|blzddist1-a.akamaihd.net level3.blizzard.com|DevReg EExt SPWin TPWin US? enUS speech?:DevReg EExt SPWin TPWin US? enUS text?||2017-06-11T21:32:07Z|1.11.1.2.37270|6da3952c70edc558ef9fb8ac7bb56d6f

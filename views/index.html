@@ -1,0 +1,58 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="File Metadata Microservice - freeCodeCamp API Project">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="jumbotron">
+        <h1>File Metadata Microservice</h1><hr>
+        
+        <div class="mb-3">
+          <h3>User stories:</h3>
+          <blockquote class="blockquote">
+            <p class="mb-2">1. I can submit a FormData object that includes a file upload.</p>
+            <p class="mb-2">2. When I submit something, I will receive the file size in bytes within the JSON response.</p>
+          </blockquote>
+        </div>
+        
+        <div>
+          <h3>Usage:</h3>
+          <form action="/filesize" method="post" enctype="multipart/form-data">
+            <div class="form-group mt-3">
+              <label for="InputFile">Submit a file to receive a JSON containing its file size.</label>
+              <input type="file" class="form-control-file" id="InputFile" aria-describedby="fileHelp" name="upl">
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
