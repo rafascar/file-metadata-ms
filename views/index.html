@@ -35,10 +35,10 @@
         
         <div>
           <h3>Usage:</h3>
-          <form>
+          <form action="/filesize" method="post" enctype="multipart/form-data">
             <div class="form-group mt-3">
               <label for="InputFile">Submit a file to receive a JSON containing its file size.</label>
-              <input type="file" class="form-control-file" id="InputFile" aria-describedby="fileHelp">
+              <input type="file" class="form-control-file" id="InputFile" aria-describedby="fileHelp" name="upl">
             </div>
             <button type="submit" class="btn btn-primary">
               Submit
